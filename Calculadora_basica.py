@@ -2,7 +2,7 @@ print("__________CALCULADORA_______ ")
 
 def suma(x,y):
 	resultado= x+y
-	return resultado
+	return "eL RESRULATDO ES ", resultado
 
 def resta(x,y):
 	resultado=x-y

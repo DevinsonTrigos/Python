@@ -17,7 +17,7 @@ def diferencia(A,B):
 
    result = c1-c2
 
-   print(f"diferencia = {result}")
+   print(f"\n\t Diferencia = {result}")
 
 def union(A,B):
 
@@ -26,17 +26,19 @@ def union(A,B):
 
    result = c1.union(c2)
 
-   print(f"union = {result}")
+   print(f"\n\t Union = {result}")
 
 def main():
     print("\n\t\t|| Operaciones de conjuntos ||")
     lista1=convertir(A)
     lista2=convertir(B)
-    print(f"\n\t{lista1}\n\t{lista2}")
+    print(f"\n\t-> A = {lista1}\n\t-> B = {lista2}")
 
     diferencia(lista1,lista2)
     union(lista1,lista2)
 
 main()
+
+
 
 

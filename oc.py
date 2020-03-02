@@ -20,7 +20,7 @@ def main():
     lista2=convertir(B)
     print(f"\n\t{lista1}\n\t{lista2}")
     Union(lista1, lista2)
-    #diferencia(lista1,lista2)
+
 
 def Union(A, B):
     c1=set(A)
@@ -29,6 +29,5 @@ def Union(A, B):
     print(result)
 
 main()
-#def Diferencia (A,B):
-    # A-B
+
 

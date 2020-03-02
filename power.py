@@ -1,4 +1,3 @@
-
 import sys
 
 aux=sys.argv[1].split("={")
@@ -73,9 +72,9 @@ def producto_cartesiano(c,cont):
     from itertools import product
     lista = []
     for elemento in product(c, repeat=(cont)):
-
             src=''.join(elemento)
-            lista.append(src)
+            aux=src.strip("0")
+            lista.append(aux)
 
     return lista
 

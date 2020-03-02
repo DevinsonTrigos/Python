@@ -33,7 +33,7 @@ def potencia_dir():
        print("Error de limite en la potencia")
 
 
-#def potencia(c):
+#def potencia(c): metodo recursivo
 
    # if len(c) == 0:
       #  return [[]]

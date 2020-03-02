@@ -19,7 +19,14 @@ def diferencia(A,B):
 
    print(f"diferencia = {result}")
 
+def union(A,B):
 
+   c1=set(A)
+   c2=set(B)
+
+   result = c1.union(c2)
+
+   print(f"union = {result}")
 
 def main():
     print("\n\t\t|| Operaciones de conjuntos ||")
@@ -31,6 +38,5 @@ def main():
     union(lista1,lista2)
 
 main()
-
 
 
